@@ -1,0 +1,68 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# Secret files
+.env
+secrets.toml
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.out
+*.err
+
+# Python cache files
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+
+# Streamlit-specific
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Flask-specific
+instance/
+*.sqlite3
+*.db
+
+# Replicate-specific
+replicate_data/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test and Coverage
+htmlcov/
+*.cover
+*.coverage
+.cache/
+pytest_cache/
+
+# Deployment
+*.dockerignore
+Dockerfile
+*.yml
+*.yaml
+
+# Others
+*.bak
+*.tmp
+*.old
